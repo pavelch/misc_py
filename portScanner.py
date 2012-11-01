@@ -29,7 +29,7 @@ except:
 if (start_port > end_port or start_port == 0 or end_port == 0 or 
     start_port > 65535 or end_port > 65535):
     print("Error: Start port should be lower or eaqual end port, "
-          "ports can`t be 0 or more than 65535")
+          "ports can`t be 0 or bigger than 65535")
     exit()
 
 if percent == 100:
